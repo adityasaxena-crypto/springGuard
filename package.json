@@ -1,0 +1,24 @@
+{
+  "name": "springguard",
+  "version": "0.1.0",
+  "description": "Spring Boot best practices enforcer for AI agents. Makes your agent think like a senior Spring developer.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "springguard": "./bin/springguard.js"
+  },
+  "scripts": {
+    "test": "node test/test.js",
+    "start": "node bin/springguard.js"
+  },
+  "keywords": [
+    "spring-boot",
+    "java",
+    "architecture",
+    "best-practices",
+    "ai-agents",
+    "code-quality"
+  ],
+  "author": "",
+  "license": "MIT"
+}

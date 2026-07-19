@@ -1,0 +1,9 @@
+{
+  "hooks": {
+    "UserPromptSubmit": {
+      "command": "node",
+      "args": ["hooks/inject-rules.js"],
+      "description": "Inject SpringGuard rules on every prompt"
+    }
+  }
+}
